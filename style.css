@@ -2,3 +2,19 @@ body{
     background-color: rgb(241, 213, 241);
     text-align: center;
 }
+.row {
+    display: flex;
+    padding : 15px;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .border {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 15px;
+  }
+
